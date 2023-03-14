@@ -1,7 +1,89 @@
 /* Basic Styling */
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.content-wrapper {
+  background-color: rgba(238, 238, 238, 0.993);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  width: 93%;
+  justify-content: space-around;
+  padding: 2em 0 1em;
+}
+
+.logo_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-top: 1%;
+  /* width: 50px;
+  height: 50px; */
+  width: 7%;
+  height: fit-content;
+  object-fit: contain;
+}
+
+.gerneral {
+  display: flex;
+  flex-direction: column;
+}
+
+.Browse_LinkedIn {
+  display: flex;
+  flex-direction: column;
+}
+
+.Business_Solutions {
+  display: flex;
+  flex-direction: column;
+}
+
+.Directories {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  color: rgb(48, 47, 47);
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.logo2 {
+  max-width: 8vw;
+  /* height: 8vh; */
+  object-fit: cover;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer-a:hover {
+  color: blueviolet;
 }
